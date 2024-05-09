@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f9f9;
+  align-items: center;
+  min-width: 50vh;
+}
+#timer {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 7rem;
+  font-weight: 400;
+  color: #db3030;
+  text-shadow: 2px 2px #8b4444;
+  transition: 2s ease;
+}
+button {
+  width: 110px;
+  font-size: 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: #db3030;
+  padding: 12px;
+  text-align: center;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px rgb(134, 67, 67);
+}
+button:hover {
+  opacity: 0.5;
+}
+button[disabled]{
+  opacity: 0.5;
+}
+@media (max-width:700px) {
+  #timer{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+  }
+  button{
+    width: 70px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 8px;
+  }
+  
+}
